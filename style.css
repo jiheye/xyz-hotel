@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(backgroun2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.header {
+    background-color: rgb(8,10,82);
+    color: white;
+    font-size: 35px;
+   padding: 15px;
+}
+.header img {
+    width: 120px;
+    height: 70px;
+    
+}
+
+.header i {
+    text-align: right;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header b {
+    color: rgb(237, 27, 131);
+    font-size: 45px;
+    
+}
+
+.menu {
+    
+    text-align: center;
+    background-color: black;
+    border-top: 4px solid rgb(237, 27, 131);
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+    margin: 8px;
+}
+.menu ul li {
+    padding: 15px;
+    width: 160px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+}
+.menu ul li a {
+    color: lightgray; /*rgb(236, 226, 190 );*/
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu ul li:hover {
+    background-color: rgb(237, 27, 131);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.menu ul li:hover a:hover {
+    background-color: rgb(237, 27, 131);
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 60px;
+
+}
+.submenu {
+    display: none;
+}
+.menu ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    
+}
+.menu ul li:hover .submenu ul {
+    display: block;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -24px;
+    background-color: black;
+    color: rgb(237, 27, 131);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.menu ul li:hover .submenu ul li {
+    padding: auto;
+    text-align: left;
+
+
+}
+
+.menu .fa {
+    margin-right: 7px;
+}
+.menu .fa-solid{
+    margin-right: 4px;
+}
+
+
+.formstyle {
+    background-color: rgb(8,10,82);
+    padding: 20px;
+    margin: 2% 4% 2% 4%;
+    border-radius: 10px;
+}
+.txt {
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.btn {
+    
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    width:  20%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: rgb(237, 27, 131);
+    color: black;
+}
